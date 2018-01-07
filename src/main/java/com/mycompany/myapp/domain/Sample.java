@@ -1,6 +1,7 @@
 package com.mycompany.myapp.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import java.util.Optional;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
@@ -34,8 +35,8 @@ public class Sample implements Serializable {
     @Column(name = "sample_size")
     private Integer sampleSize;
 
-    @OneToOne
-    @JoinColumn(unique = true)
+    @OneToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "sample_one",unique = true)
     private SampleOneToOne sampleOne;
 
     @OneToMany(mappedBy = "sample")
@@ -66,6 +67,8 @@ public class Sample implements Serializable {
     }
 
     public Integer getSampleSize() {
+        Optional<Integer> queijo;
+        queijo.isPre
         return sampleSize;
     }
 
