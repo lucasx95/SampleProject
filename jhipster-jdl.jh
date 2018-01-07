@@ -1,0 +1,24 @@
+entity Sample {
+	sampleName String
+    sampleSize Number
+}
+
+entity SampleOneToOne {
+	sampleOne String
+}
+
+entity SampleMany {
+	sampleMany  String
+}
+
+relationship OneToOne {
+	Sample{sampleOne} to SampleOneToOne
+}
+
+relationship OneToMany {
+	Sample{sampleMany} to SampleMany
+}
+
+dto * with mapstruct
+
+service all with serviceImpl 
