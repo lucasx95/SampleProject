@@ -1,0 +1,23 @@
+{
+    "sampleProjectApp": {
+        "sampleMany" : {
+            "home": {
+                "title": "Sample Manies",
+                "createLabel": "Buat Sample Many baru",
+                "createOrEditLabel": "Buat atau edit Sample Many",
+                "search": "Cari Sample Many"
+            },
+            "created": "Sample Many dengan id {{ param }} telah dibuat",
+            "updated": "Sample Many dengan id {{ param }} telah diperbaharui",
+            "deleted": "Sample Many dengan id {{ param }} telah dihapus",
+            "delete": {
+                "question": "Apakah anda yakin ingin menghapus Sample Many {{ id }}?"
+            },
+            "detail": {
+                "title": "Sample Many"
+            },
+            "sampleMany": "Sample Many",
+            "sample": "Sample"
+        }
+    }
+}

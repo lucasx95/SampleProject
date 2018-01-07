@@ -1,0 +1,22 @@
+{
+    "sampleProjectApp": {
+        "sampleOneToOne" : {
+            "home": {
+                "title": "SampleOneToOnes",
+                "createLabel": "Crear novo Sample One To One",
+                "createOrEditLabel": "Crear ou editar Sample One To One",
+                "search": "Search for Sample One To One"
+            },
+            "created": "Un novo Sample One To One foi creado co identificador {{ param }}",
+            "updated": "Un Sample One To One foi actualizado co identificador {{ param }}",
+            "deleted": "Un Sample One To One foi eliminado co identificador {{ param }}",
+            "delete": {
+                "question": "Seguro que desexa eliminar Sample One To One {{ id }}?"
+            },
+            "detail": {
+                "title": "Sample One To One"
+            },
+            "sampleOne": "Sample One"
+        }
+    }
+}

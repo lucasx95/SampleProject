@@ -1,0 +1,16 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "sampleOne",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180107171958",
+    "entityTableName": "sample_one_to_one",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false
+}

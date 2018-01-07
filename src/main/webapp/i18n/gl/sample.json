@@ -1,0 +1,25 @@
+{
+    "sampleProjectApp": {
+        "sample" : {
+            "home": {
+                "title": "Samples",
+                "createLabel": "Crear novo Sample",
+                "createOrEditLabel": "Crear ou editar Sample",
+                "search": "Search for Sample"
+            },
+            "created": "Un novo Sample foi creado co identificador {{ param }}",
+            "updated": "Un Sample foi actualizado co identificador {{ param }}",
+            "deleted": "Un Sample foi eliminado co identificador {{ param }}",
+            "delete": {
+                "question": "Seguro que desexa eliminar Sample {{ id }}?"
+            },
+            "detail": {
+                "title": "Sample"
+            },
+            "sampleName": "Sample Name",
+            "sampleSize": "Sample Size",
+            "sampleOne": "Sample One",
+            "sampleMany": "Sample Many"
+        }
+    }
+}

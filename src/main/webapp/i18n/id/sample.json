@@ -1,0 +1,25 @@
+{
+    "sampleProjectApp": {
+        "sample" : {
+            "home": {
+                "title": "Samples",
+                "createLabel": "Buat Sample baru",
+                "createOrEditLabel": "Buat atau edit Sample",
+                "search": "Cari Sample"
+            },
+            "created": "Sample dengan id {{ param }} telah dibuat",
+            "updated": "Sample dengan id {{ param }} telah diperbaharui",
+            "deleted": "Sample dengan id {{ param }} telah dihapus",
+            "delete": {
+                "question": "Apakah anda yakin ingin menghapus Sample {{ id }}?"
+            },
+            "detail": {
+                "title": "Sample"
+            },
+            "sampleName": "Sample Name",
+            "sampleSize": "Sample Size",
+            "sampleOne": "Sample One",
+            "sampleMany": "Sample Many"
+        }
+    }
+}

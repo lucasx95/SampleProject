@@ -1,0 +1,36 @@
+
+<div *ngIf="sample">
+    <h2><span jhiTranslate="sampleProjectApp.sample.detail.title">Sample</span> {{sample.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="sampleProjectApp.sample.sampleName">Sample Name</span></dt>
+        <dd>
+            <span>{{sample.sampleName}}</span>
+        </dd>
+        <dt><span jhiTranslate="sampleProjectApp.sample.sampleSize">Sample Size</span></dt>
+        <dd>
+            <span>{{sample.sampleSize}}</span>
+        </dd>
+        <dt><span jhiTranslate="sampleProjectApp.sample.sampleOne">Sample One</span></dt>
+        <dd>
+            <div *ngIf="sample.sampleOneId">
+                <a [routerLink]="['/sample-one-to-one', sample.sampleOneId]">{{sample.sampleOneId}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'sample/'+ sample.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

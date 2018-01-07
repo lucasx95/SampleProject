@@ -1,6 +1,6 @@
 entity Sample {
-	sampleName String
-    sampleSize Number
+    sampleName String
+    sampleSize Integer
 }
 
 entity SampleOneToOne {

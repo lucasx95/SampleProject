@@ -1,0 +1,23 @@
+{
+    "sampleProjectApp": {
+        "sampleMany" : {
+            "home": {
+                "title": "SampleManies",
+                "createLabel": "Crear novo Sample Many",
+                "createOrEditLabel": "Crear ou editar Sample Many",
+                "search": "Search for Sample Many"
+            },
+            "created": "Un novo Sample Many foi creado co identificador {{ param }}",
+            "updated": "Un Sample Many foi actualizado co identificador {{ param }}",
+            "deleted": "Un Sample Many foi eliminado co identificador {{ param }}",
+            "delete": {
+                "question": "Seguro que desexa eliminar Sample Many {{ id }}?"
+            },
+            "detail": {
+                "title": "Sample Many"
+            },
+            "sampleMany": "Sample Many",
+            "sample": "Sample"
+        }
+    }
+}

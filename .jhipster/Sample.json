@@ -1,0 +1,35 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "sampleOne",
+            "otherEntityName": "sampleOneToOne",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "sample"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "sampleMany",
+            "otherEntityName": "sampleMany",
+            "otherEntityRelationshipName": "sample"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "sampleName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sampleSize",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20180107171957",
+    "entityTableName": "sample",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false
+}

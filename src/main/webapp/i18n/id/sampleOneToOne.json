@@ -1,0 +1,22 @@
+{
+    "sampleProjectApp": {
+        "sampleOneToOne" : {
+            "home": {
+                "title": "Sample One To Ones",
+                "createLabel": "Buat Sample One To One baru",
+                "createOrEditLabel": "Buat atau edit Sample One To One",
+                "search": "Cari Sample One To One"
+            },
+            "created": "Sample One To One dengan id {{ param }} telah dibuat",
+            "updated": "Sample One To One dengan id {{ param }} telah diperbaharui",
+            "deleted": "Sample One To One dengan id {{ param }} telah dihapus",
+            "delete": {
+                "question": "Apakah anda yakin ingin menghapus Sample One To One {{ id }}?"
+            },
+            "detail": {
+                "title": "Sample One To One"
+            },
+            "sampleOne": "Sample One"
+        }
+    }
+}
